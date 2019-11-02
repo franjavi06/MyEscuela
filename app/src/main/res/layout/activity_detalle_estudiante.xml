@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleEstudiante"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewId_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textViewNombre_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textViewMatricula_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matrícula"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textViewCarreraNombre_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carrera"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextNombre_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextMatricula_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Matrícula"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Spinner
+            android:id="@+id/carreras_select_detalleEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_weight="8"/>
+
+        <Button
+            android:id="@+id/button_a_Carreras_detalleEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonGuardar_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/buttonCancelar_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/buttonEditar_Detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/buttonCancelar_Detalle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+</LinearLayout>

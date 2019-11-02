@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">MyEscuela</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_lista_estudiantes">Lista Estudiantes</string>
+    <string name="title_activity_lista_carreras">Lista Carreras</string>
+    <string name="title_activity_lista_materias">Lista Materias</string>
+    <string name="title_activity_agregar_estudiante">Agregar Estudiante</string>
+    <string name="title_activity_agregar_materia">Agregar Materia</string>
+    <string name="title_activity_agregar_carrera">Agregar Carrera</string>
+    <string name="title_activity_detalle_estudiante">Detalle Estudiante</string>
 </resources>

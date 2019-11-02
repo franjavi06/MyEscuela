@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface EstudianteRepositorio {
 
-    void crear(Estudiante estudiante);
-    void actualizar(Estudiante estudiante);
+    long crear(Estudiante estudiante);
+    long actualizar(Estudiante estudiante);
     void borrar(Estudiante estudiante);
     Estudiante buscar(int id);
     List<Estudiante> buscar();
