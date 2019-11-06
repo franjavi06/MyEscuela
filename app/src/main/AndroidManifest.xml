@@ -13,34 +13,40 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Inicio"
+            android:label="Inicio"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".AddMateria"
-            android:label="@string/title_activity_agregar_materia"></activity>
+            android:label="@string/title_activity_agregar_materia" />
         <activity
             android:name=".ListaMaterias"
             android:label="@string/title_activity_lista_materias"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AddCarrera"
-            android:label="@string/title_activity_agregar_carrera"/>
+            android:label="@string/title_activity_agregar_carrera" />
         <activity
             android:name=".ListaCarreras"
             android:label="@string/title_activity_lista_carreras"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DetalleEstudiante"
-            android:label="@string/title_activity_detalle_estudiante"/>
+            android:label="@string/title_activity_detalle_estudiante" />
         <activity
             android:name=".AddEstudiante"
-            android:label="@string/title_activity_agregar_estudiante"/>
+            android:label="@string/title_activity_agregar_estudiante" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_lista_estudiantes"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
